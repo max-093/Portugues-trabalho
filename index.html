@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Redescoberta — Coletânea de Português</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="cs/style.css">
+    <!-- icones -->
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="inicio">
+        <button id="btn-menu">☰ Menu</button>
+
+        <div class="titulo">
+            <h1>A Redescoberta:</h1>
+            <p class="subtitulo">Entre Flores, Versos e Palavra.</p>
+        </div>
+
+        <nav id="menu-lateral" class="fechado">
+            <button id="btn-fechar">X</button>
+            <a href="#Nicole" onclick="voltarInicio()"> Nicole obras</a>
+            <a href="#Marcelo" onclick="voltarInicio()"> Marcelo obras</a>
+            <a href="#Isabelly" onclick="voltarInicio()"> Isabelly obras</a>
+            <a href="#Maria" onclick="voltarInicio()"> Maria obras</a>
+            <a href="#vid" onclick="voltarInicio()"> Vídeos-Reportagens</a>
+            <button onclick="myFunction()">Modo claro</button>
+        </nav>
+    </header>
+
+    <main class="introducao" id="intro">
+        <div class="identificacao">
+            <h3>A Redescoberta — Coletânea de Português</h3>
+            <p><em>“Entre Flores, Versos e Palavra.”</em></p>
+        </div>
+    <div id="tela-cards">
+
+    <section id="Nicole">
+        <!-- Nicole -->
+        <div class="grade-obras" >
+            <!-- CORDEL -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="nic-cordel-img.jpeg" alt="Capa Cordel" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Cordel:</h3>
+                        <p>Nicole de Castro Freire</p>
+                    </div>
+                </div>
+                <p>Nome: Um fundo de esperança.</p>
+                <a href="Cordel - Nicole de Castro Freire 148.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Cordel →</a>
+            </section>
+
+            <!-- CONTO -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="nic-contoimg.jpeg" alt="Capa Conto" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Conto:</h3>
+                        <p>Nicole de Castro Freire</p>
+                    </div>
+                </div>
+                <p>Nome: Somos tão diferentes assim ?</p>
+                <a href="Nicole de Castro148_somos tão diferentes assim_.docx.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Conto →</a>
+            </section>
+
+            <!-- RESENHA -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="airmadaperola.jpeg" alt="Capa Resenha" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Resenha:</h3>
+                        <p>Nicole de Castro Freire</p>
+                    </div>
+                </div>
+                <p>Livro: A irmã da Pérola. </p>
+                <a href="Nicole de Castro 148 - resenha do livro.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Resenha →</a>
+            </section>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="Marcelo">
+        <!-- Marcelo -->
+        <div class="grade-obras" >
+            <!-- CORDEL -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="img-marcelo-cordel.jpeg" alt="Capa Cordel" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Cordel:</h3>
+                        <p>Marcelo Lucas Lopes</p>
+                    </div>
+                </div>
+                <p>Nome: Cor do meu coração</p>
+                <a href="Cordel de Marcelo Lucas Lopes 148.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Cordel →</a>
+            </section>
+
+            <!-- CONTO -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="hibiscomarcelo.jpeg" alt="Capa Conto" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Conto:</h3>
+                        <p>Marcelo Lucas Lopes</p>
+                    </div>
+                </div>
+                <p>Nome: O Hibisco da Casa silenciosa</p>
+                <a href="Marcelo Lucas Lopes 148_Conto.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Conto →</a>
+            </section>
+
+            <!-- RESENHA -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="nataldeport-mar.jpeg" alt="Capa Resenha" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Resenha:</h3>
+                        <p>Marcelo Lucas Lopes</p>
+                    </div>
+                </div>
+                <p>Livro: O natal de Poirot </p>
+                <a href="Resenha do livro “O natal de Poirot”.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Resenha →</a>
+            </section>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="Maria">
+        <!-- Maria -->
+        <div class="grade-obras" >
+            <!-- CORDEL -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="mariaa-cordelimg.jpg" alt="Capa Cordel" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Cordel:</h3>
+                        <p>Maria Eduarda Santos Mascarenhas</p>
+                    </div>
+                </div>
+                <p>Nome: ... </p>
+                <a href="cordel.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Cordel →</a>
+            </section>
+
+            <!-- CONTO -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="hibiscorosa.jpeg" alt="Capa Conto" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Conto:</h3>
+                        <p>Maria Eduarda Santos Mascarenhas</p>
+                    </div>
+                </div>
+                <p>Nome: HIBISCO ROSA </p>
+                <a href="Maria Eduarda Santos Mascarenhas.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Conto →</a>
+            </section>
+
+            <!-- RESENHA -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="livromaria.jpg" alt="Capa Resenha" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Resenha:</h3>
+                        <p>Maria Eduarda Santos Mascarenhas</p>
+                    </div>
+                </div>
+                <p>Livro: Desventuras em série </p>
+                <a href="Resenha—Desventuras em série— Maria Eduarda Santos Mascarenhas—148.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Resenha →</a>
+            </section>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="Isabelly">
+        <!-- Isa -->
+        <div class="grade-obras" >
+            <!-- CORDEL -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="cordel-isa.jpeg" alt="Capa Cordel" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Cordel:</h3>
+                        <p>Isabelly Oliveira da Silva</p>
+                    </div>
+                </div>
+                <p>Nome: DIREITOS HUMANOS  </p>
+                <a href="CORDEL (2).pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Cordel →</a>
+            </section>
+
+            <!-- CONTO -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="imh-contoisa.jpeg" alt="Capa Conto" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Conto:</h3>
+                        <p>Isabelly Oliveira da Silva</p>
+                    </div>
+                </div>
+                <p>Nome: HIBISCO ROXO </p>
+                <a href="Isabellyref_conto.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Conto →</a>
+            </section>
+
+            <!-- RESENHA -->
+            <section class="container card-obra">
+                <div class="card-top">
+                    <div class="card-img">
+                        <img src="img-alguemisa.jpeg" alt="Capa Resenha" onerror="this.style.display='none'">
+                    </div>
+                    <div class="card-info">
+                        <h3>Resenha:</h3>
+                        <p>Isabelly Oliveira da Silva</p>
+                    </div>
+                </div>
+                <p>Livro: Alguém que você conhece  </p>
+                <a href="Alguém que você conhece.pdf" target="_blank" rel="noopener noreferrer" class="btn-ler">Resenha →</a>
+            </section>
+        </div>
+    </section>
+
+<hr>
+
+    <section id="vid">
+        <div class="grade-obras">
+            <section class="container card-obra">
+                <div class="card-info">
+                    <h3> Reportagem: </h3>
+                    <p> Miuke Chinen Belchor</p>
+                </div>
+                <video controls>
+                    <source src="miuke-vid.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section class="container card-obra">
+                <div class="card-info">
+                    <h3> Reportagem: </h3>
+                    <p> Nicole de Castro Freire</p>
+                    <p> Marcelo Lucas Lopes</p>
+                </div>
+                <video controls>
+                    <source src="nicolemarcelo-vid.mp4" type="video/mp4">
+                </video>
+            </section>
+
+
+            <section class="container card-obra">
+                <div class="card-info">
+                    <h3> Reportagem: </h3>
+                    <p> Isabelly Oliveira da Silva</p>
+                    <p> Maria Eduarda Santos Mascarenhas</p>
+                </div>
+                <!-- link do vídeo da Isa-->
+                 <video controls>
+                    <source src="isa-vid.mp4" type="video/mp4">
+                </video>
+            </section>
+
+        </div>
+    </section>
+    </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
